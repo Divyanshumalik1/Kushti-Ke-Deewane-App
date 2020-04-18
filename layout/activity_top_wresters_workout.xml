@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:weightSum="8"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".TopWrestersWorkoutActivity">
+
+//everything old
+    <!--<Toolbar-->
+            <!--android:background="@color/red1"-->
+            <!--android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"-->
+            <!--android:titleTextColor="@color/white"-->
+            <!--android:title= " PRESS ▶️ BEFORE PLAYING ANY VIDEO"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+    <!--</Toolbar>-->
+
+    <!--<com.google.android.youtube.player.YouTubePlayerView-->
+            <!--android:id="@+id/youtubeplayertopwrestlers"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="300dp">-->
+
+    <!--</com.google.android.youtube.player.YouTubePlayerView>-->
+
+    <!--<androidx.core.widget.NestedScrollView-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="SUSHIL KUMAR WORKOUT 1"-->
+                        <!--android:id="@+id/sushilworkbtn1"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest1"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="SUSHIL KUMAR WORKOUT 2"-->
+                        <!--android:id="@+id/sushilworkbtn2"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest2"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="YOGESHWAR DUTT WORKOUT 1"-->
+                        <!--android:id="@+id/yogeshwork1"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest3"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="YOGESHWAR DUTT GYM WORKOUT "-->
+                        <!--android:id="@+id/yogeshwork2"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest4"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="BAJRANG PUNIA WORKOUT 1"-->
+                        <!--android:id="@+id/bajrangbtn1"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest5"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="BAJRANG PUNIA WORKOUT 2"-->
+                        <!--android:id="@+id/bajrangbtn2"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest6"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="AMIT DAHIYA WORKOUT"-->
+                        <!--android:id="@+id/amitworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest7"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="PAWAN SAROHA WORKOUT"-->
+                        <!--android:id="@+id/pawanworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest8"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="BANIA JAMMU WORKOUT 1"-->
+                        <!--android:id="@+id/baniaworkbtn1"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest9"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="BANIA JAMMU WORKOUT 2"-->
+                        <!--android:id="@+id/baniaworkbtn2"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest10"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="SAKSHI MALIK WORKOUT"-->
+                        <!--android:id="@+id/sakshiworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest11"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="POOJA DHANDA WORKOUT"-->
+                        <!--android:id="@+id/poojaworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest12"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="WOMEN WRESTLERS WORKOUT"-->
+                        <!--android:id="@+id/womenworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest13"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                        <!--android:background="@color/red1"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:text="GOONGA PEHALWAN WORKOUT"-->
+                        <!--android:id="@+id/goongaworkbtn"-->
+                        <!--android:layout_width="360dp"-->
+                        <!--android:layout_height="40dp"/>-->
+                <!--<Button-->
+                        <!--android:id="@+id/recreatetopwrest14"-->
+                        <!--android:background="@drawable/ic_play_circle_outline_black_24dp"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="40dp"/>-->
+
+            <!--</LinearLayout>-->
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+
+
+    <!--</androidx.core.widget.NestedScrollView>-->
+
+    <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+                android:textColor="@color/white"
+                android:background="@color/black2"
+                android:text="BACK"
+                android:layout_weight="1"
+                android:id="@+id/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <Button
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:background="@color/black2"
+                android:text="NEXT"
+                android:layout_weight="1"
+                android:id="@+id/forwardbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <WebView
+            android:layout_weight="8"
+            android:id="@+id/webview111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    </WebView>
+
+
+    <com.google.android.gms.ads.AdView
+            android:layout_gravity="center|bottom"
+            android:layout_weight="0"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4071969817294756/6509860421">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>

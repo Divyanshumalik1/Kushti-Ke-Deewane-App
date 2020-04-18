@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:weightSum="8"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/black2"
+
+>
+
+    <!--कृपया-->
+
+    <Toolbar
+
+            android:titleTextColor="@color/white"
+            android:gravity="center"
+            android:title="PLEASE SELECT A CHOICE/ विकल्प चुने "
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+
+    >
+
+
+    </Toolbar>
+
+
+
+    <androidx.core.widget.NestedScrollView
+
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <Button
+
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:text="WORKOUT"
+                        android:background="@drawable/workout1"
+                        android:id="@+id/Workout"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+                <Button
+
+                        android:layout_marginLeft="10dp"
+                        android:text="DIET"
+                        android:textSize="40dp"
+                        android:textColor="@color/black2"
+                        android:background="@drawable/dietpic"
+                        android:id="@+id/Diet1"
+                        android:gravity="center"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+
+                        android:textSize="25dp"
+                        android:textColor="@color/black2"
+                        android:text="SHOPPING"
+                        android:background="@drawable/fitshopping"
+                        android:id="@+id/Shopping1"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+                <Button
+
+                        android:layout_marginLeft="10dp"
+
+                        android:textSize="15dp"
+                        android:textColor="@color/black2"
+                        android:text="OFFICIAL WEBSITES"
+                        android:background="@drawable/wrest"
+                        android:id="@+id/websitewrest"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+                        android:background="@drawable/kushtrestli"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:text="WRESTLING VIDEOS"
+                        android:id="@+id/wrestvids"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/backthrow"
+                        android:text="WRESTLING TECHNIQUES"
+                        android:textSize="23dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/techniques"
+                        android:gravity="center"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+                        android:background="@drawable/wrestlingtv"
+                        android:textSize="25dp"
+                        android:id="@+id/wrestlingtv"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:textSize="25dp"
+                        android:textColor="@color/black2"
+                        android:text="LIVE DANGAL"
+                        android:id="@+id/livedangalbutton"
+                        android:background="@drawable/livedangal"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:text="JOIN KUSHTI KE DEEWANE CLUB "
+                        android:gravity="center"
+                        android:id="@+id/joinkkdclub"
+                        android:background="@color/black2"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:textSize="25dp"
+                        android:textColor="@color/red1"
+                        android:text="MOTIVATION"
+                        android:background="@drawable/motivation11"
+                        android:id="@+id/Motivation1"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <Button
+                        android:gravity="bottom|center"
+                        android:textSize="25dp"
+                        android:textColor="@color/black2"
+                        android:text="UPDATES"
+                        android:background="@drawable/newsimage"
+                        android:id="@+id/kkdupdates"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:text="CONTACT US !"
+                        android:textSize="27dp"
+                        android:textColor="@color/black2"
+                        android:id="@+id/contactus"
+                        android:gravity="center"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <Button
+
+                        android:textSize="25dp"
+                        android:textColor="@color/black2"
+                        android:text="PRIVACY POLICY !"
+                        android:background="@color/red1"
+                        android:id="@+id/privacypolicy"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+                <Button
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black2"
+                        android:textSize="25dp"
+                        android:text="CONTRIBUTE TO KUSHTI KE DEEWANE "
+                        android:gravity="center"
+                        android:id="@+id/supportusbutton"
+                        android:background="@drawable/supportus"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+            android:layout_gravity="center|bottom"
+            android:layout_weight="0"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4071969817294756/6509860421">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
+
+
+

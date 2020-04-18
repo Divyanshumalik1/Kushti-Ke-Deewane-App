@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:background="@color/black2"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ShoppingActivity">
+
+    <Toolbar
+            android:background="@color/red1"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:titleTextColor="@color/white"
+            android:title= " PRESS ▶️ BEFORE PLAYING ANY VIDEO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp">
+
+                    <ImageView
+                            android:background="@drawable/kushtikdicon1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                    />
+
+                    <!--<TextView-->
+                            <!--android:textColor="@color/red1"-->
+                            <!--android:textSize="30dp"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"/>-->
+
+                    <Button
+
+                            android:paddingRight="25dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="bottom|right"
+                            android:textSize="25dp"
+                            android:textColor="@color/white"
+                            android:layout_gravity="center"
+                            android:textAllCaps="true"
+                            android:text="*click here*"
+                            android:background="@drawable/kushtistore"
+                            android:id="@+id/kustistore"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:textSize="22dp"
+                        android:textColor="@color/white"
+                        android:text="***WELCOME TO KUSHTI STORE***"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/shopyoutubeplayer"
+                    android:layout_gravity="center"
+                    android:layout_width="360dp"
+                    android:layout_height="300dp">
+
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <Button
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" android:id="@+id/recreateshop1"
+                            android:background="@drawable/ic_play_circle_outline_black_24dp"/>
+                    <Button
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:background="@color/red1"
+                            android:text="    KEEDA JADI BENEFITS    "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnkeedaplay"
+                            />
+                    <Button
+                            android:textSize="12dp"
+                            android:textColor="@color/red1"
+                            android:background="@color/white"
+                            android:text="    BUY KEEDA JADI       "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/buykeedabtn"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <Button
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/recreateshop2"
+                            android:background="@drawable/ic_play_circle_outline_black_24dp"/>
+                    <Button
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textColor="@color/red1"
+                            android:background="@color/white"
+                            android:text="    KUNDI(badam ragda)   "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnkundiplay"/>
+                    <Button
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:background="@color/red1"
+                            android:text="    BUY KUNDI SOTTA   "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                             android:id="@+id/buykundibtn"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <Button
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/recreateshop3"
+                            android:background="@drawable/ic_play_circle_outline_black_24dp"/>
+                    <Button
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:background="@color/red1"
+                            android:text="  MUDGAR(INDIAN CLUBS)  "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/btnmudgarplay" />
+                    <Button
+                            android:textSize="12dp"
+                            android:textColor="@color/red1"
+                            android:background="@color/white"
+                            android:text="         BUY MUDGAR      "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/buymudgarbtn"
+                            />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+            android:layout_gravity="center|bottom"
+            android:layout_weight="0"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4071969817294756/6509860421">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</LinearLayout>

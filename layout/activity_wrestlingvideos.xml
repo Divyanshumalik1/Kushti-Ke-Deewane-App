@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:weightSum="8"
+        android:background="@color/black2"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WrestlingvideosActivity">
+    <Toolbar
+            android:background="@color/black2"
+            android:id="@+id/toolbardiet1"
+            android:title="PLEASE SELECT TYPE OF VIDEOS"
+            android:titleTextColor="@color/white"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+    </Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:paddingBottom="10dp"
+                    android:text="**SPECIAL CONTENT**"
+                    android:textColor="@color/white"
+                    android:background="@drawable/specialcontent"
+                    android:gravity="center|bottom"
+                    android:textSize="28dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp" android:id="@+id/akhadatrainbtn"/>
+
+
+            <Button
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/topwrestler"
+                    android:gravity="center|bottom"
+                    android:textSize="25dp"
+                    android:text="TOP WRESTLERS WORKOUTS"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp" android:id="@+id/famwrestvidbtn"/>
+
+            <Button
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/dangalvideos"
+                    android:gravity="center|bottom"
+                    android:textSize="30dp"
+                    android:text="**DANGAL  VIDEOS**"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp" android:id="@+id/dangalvideosbtn"/>
+
+
+
+            <Button
+                    android:background="@drawable/wrestlingdocumentary"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp" android:id="@+id/wrestdocumentariesbtn"/>
+
+
+            <Button
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/wrestentertainment"
+                    android:gravity="center|bottom"
+                    android:textSize="25dp"
+                    android:text="WRESTLING ENTERTAINMENT"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp" android:id="@+id/wrestlerfunnybtn"/>
+
+            <!--<Button-->
+                    <!--android:layout_marginBottom="50dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:background="@color/red1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="25dp"-->
+                    <!--android:text="BEST WRESTLING THROWS"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="80dp" android:id="@+id/wrestthrowbtn"/>-->
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.gms.ads.AdView
+            android:layout_gravity="center|bottom"
+            android:layout_weight="0"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4071969817294756/6509860421">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
