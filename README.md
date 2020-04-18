@@ -4,6 +4,9 @@ This contains extremely useful information which will not only help but guide a 
 There are sections such as mentioned above like workout,diet and must be thoroughly watched and practised the same. It also contains secrets of wrestling which help in performance enhancement naturally.
 There are also sections like Shopping in which if anybody who wants to buy special wrestling equipments will be contacted by Kushti Ke Deewane Team. In LIVE DANGAL section anyone can watch live dangals that are going on . There are countless Videos on Wrestling and Tons of Information to Explore.
 
+# App Link 
+https://play.google.com/store/apps/details?id=com.kushtikd2.bodyapp2
+
 # Screenshots
  
  ![3hello](https://user-images.githubusercontent.com/45965818/79638824-3fe85880-81a5-11ea-8765-a34315463a0a.gif)
