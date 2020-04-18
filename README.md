@@ -5,4 +5,5 @@ There are sections such as mentioned above like workout,diet and must be thoroug
 There are also sections like Shopping in which if anybody who wants to buy special wrestling equipments will be contacted by Kushti Ke Deewane Team. In LIVE DANGAL section anyone can watch live dangals that are going on . There are countless Videos on Wrestling and Tons of Information to Explore.
 
 # Screenshots
-![1hello](https://user-images.githubusercontent.com/45965818/79638703-95703580-81a4-11ea-919c-bd85709c37f4.gif)
+
+ ![1hello](https://user-images.githubusercontent.com/45965818/79638703-95703580-81a4-11ea-919c-bd85709c37f4.gif)
